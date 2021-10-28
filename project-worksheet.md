@@ -30,7 +30,7 @@ Valorant api
 
 ## Wireframes
 
-- 
+- [Wireframe](https://images.unsplash.com/photo-1635465473812-1efcfb5ad17d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80)
 
 ## MVP/Post MVP
 #### MVP
@@ -39,14 +39,48 @@ Valorant api
     - Selected Weapon populated by clicking desired weapon
     - Populated list of weapon skin names
     - Selected skin will populate weapon with new aesthetic
-- NavBar with options to different weapons
+- NavBar to home
 
 #### PostMVP
 
 - Another layer of options before list of weapons into categories (i.e. rifle, heavy, etc.)
 - Different perspective views of weapon (i.e front, side, etc.)
+- NavBar with layers of options (list of weapons)
+- Create a form that allows search for specific weapon
 
 ## Components
+
+| Components | Description |
+| --- | :---: |
+| App | Set up app with React Router, also the homepage with Navbar |
+| NavBar | Renders the Navbar with its functionality |
+| Arsenal | Render the list of weapons by name, will render on homepage with route |
+| WeaponList| Renders list of weapons in Valorant |
+| Weapon | Renders chosen weapon with statistics and list of weapon skins |
+| WeaponStats | Renders the data of the weapon chosen |
+| SkinList | Renders a list of weapon skin aesthetics by name |
+| WeaponImage | Renders image of weapon, with or without skin modification on Weapon Component |
+| CSS | Styling all of the above |
+
+#### Time Table
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: | :---: | :---: | :---: |
+| App | H | 1hr | | |
+| NavBar | H | 2hr | | |
+| Arsenal | H | 3hr | | |
+| WeaponList | H | 1.5hr | | |
+| Weapon | H | 3hr | | |
+| WeaponStats | H | 1.5hr | | |
+| SkinList | H | 1.5hr | | |
+| WeaponImage | H | 1hr | | |
+| CSS | H | 5hr | | |
+| Mod NavBar(PostMVP) | L | 3hr | | |
+| WeaponCategory(PostMVP) | L | 2hr | | |
+| Search(PostMVP) | L | 2hr | | |
+| Total(MVP) | H | 19.5hr | | |
+| Total(PostMVP) | L | 9hr | | |
+
 
 ## Additional Libraries
 
