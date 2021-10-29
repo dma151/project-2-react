@@ -66,20 +66,21 @@ Valorant api
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: | :---: | :---: | :---: |
-| App | H | 1hr | | |
+| App | H | 1hr | 1hr | 1hr |
 | NavBar | H | 2hr | | |
-| Arsenal | H | 3hr | | |
-| WeaponList | H | 1.5hr | | |
-| Weapon | H | 3hr | | |
-| WeaponStats | H | 1.5hr | | |
-| SkinList | H | 1.5hr | | |
-| WeaponImage | H | 1hr | | |
+| Arsenal | H | 3hr | 2.5hr | 2.5hr |
+| Weapon | H | 3hr | 2hr | 2hr |
+| WeaponStats | H | 1.5hr | 0.5hr | 0.5hr |
+| SkinList | H | 1.5hr | 1hr | 1hr |
+| WeaponImage | H | 1hr | 1hr | 1hr |
 | CSS | H | 5hr | | |
 | Mod NavBar(PostMVP) | L | 3hr | | |
 | WeaponCategory(PostMVP) | L | 2hr | | |
+| WeaponSkin Color Variants(PostMVP) | L | 3hr | | |
+| WeaponSkin Levels videos(PostMVP) | L | 3hr | | |
 | Search(PostMVP) | L | 2hr | | |
 | Total(MVP) | H | 19.5hr | | |
-| Total(PostMVP) | L | 9hr | | |
+| Total(PostMVP) | L | 15hr | | |
 
 
 ## Additional Libraries
