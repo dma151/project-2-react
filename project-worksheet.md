@@ -77,8 +77,9 @@ Valorant api
 | Mod NavBar(PostMVP) | L | 3hr | | |
 | WeaponCategory(PostMVP) | L | 2hr | | |
 | WeaponSkin Color Variants(PostMVP) | L | 3hr | | |
-| WeaponSkin Levels videos(PostMVP) | L | 3hr | | |
-| Search(PostMVP) | L | 2hr | | |
+| WeaponSkin Levels videos(PostMVP) | L | 3hr | 1hr | |
+| Search(PostMVP) | L | 2hr | 2hr | 2hr |
+| Random Weapon div(PostMVP) | L | 1hr | | |
 | Total(MVP) | H | 19.5hr | | |
 | Total(PostMVP) | L | 15hr | | |
 

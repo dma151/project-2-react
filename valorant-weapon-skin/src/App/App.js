@@ -1,33 +1,51 @@
-import { Route, Link, Redirect } from 'react-router-dom';
-import { useState, useEffect } from 'react'
-import Arsenal from '../Components/Arsenal';
-import NavBar from '../Components/NavBar';
-import Weapon from '../Components/Weapon';
-import './App.css';
+import { Route, Redirect } from "react-router-dom";
+import { useState, useEffect } from "react";
+import Arsenal from "../Components/Arsenal";
+import NavBar from "../Components/Navigation";
+import Weapon from "../Components/Weapon";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [weaponList, setWeaponList] = useState([])
-  const [bigImage, setBigImage] = useState()
+  const [weaponList, setWeaponList] = useState([]);
+  const [bigImage, setBigImage] = useState();
   useEffect(() => {
-      const makeApiCall = async () => {
-          const res = await fetch('https://valorant-api.com/v1/weapons');
-          const json = await res.json();
-          setWeaponList(json.data)
-      }
-      makeApiCall();
+    const makeApiCall = async () => {
+      const res = await fetch("https://valorant-api.com/v1/weapons");
+      const json = await res.json();
+      setWeaponList(json.data);
+    };
+    makeApiCall();
   }, []);
   const handleBigImage = (data) => {
-    setBigImage(data)
-  }
+    setBigImage(data);
+  };
   return (
     <div className="App">
       <header>
         <NavBar />
       </header>
       <main>
-        <Route path='/arsenal' exact render={() => <Arsenal weaponList={weaponList} onClick={handleBigImage}/>} />
-        <Route path='/arsenal/:weapon' exact render={routerProps => <Weapon {...routerProps} weaponList={weaponList} bigImage={bigImage} onClick={handleBigImage}/>} />
-        <Redirect to='/arsenal' />
+        <Route
+          path="/arsenal"
+          exact
+          render={() => (
+            <Arsenal weaponList={weaponList} onClick={handleBigImage} />
+          )}
+        />
+        <Route
+          path="/arsenal/:weapon"
+          exact
+          render={(routerProps) => (
+            <Weapon
+              {...routerProps}
+              weaponList={weaponList}
+              bigImage={bigImage}
+              onClick={handleBigImage}
+            />
+          )}
+        />
+        <Redirect to="/arsenal" />
       </main>
     </div>
   );

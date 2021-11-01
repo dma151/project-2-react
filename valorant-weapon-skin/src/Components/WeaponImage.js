@@ -1,9 +1,11 @@
-const WeaponImage = (props) => {
-    return(
-        <div className='bigImage'>
-            <img src={props.bigImage} alt='bigImage' />
-        </div>
-    )
-}
+import Image from "react-bootstrap/Image"
 
-export default WeaponImage
+const WeaponImage = (props) => {
+  return (
+    <div className="bigImage" >
+      <Image src={props.bigImage} fluid />
+    </div>
+  );
+};
+
+export default WeaponImage;
