@@ -23,7 +23,7 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/arsenal">Home</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
           </Nav>
           <Form className="d-flex">
