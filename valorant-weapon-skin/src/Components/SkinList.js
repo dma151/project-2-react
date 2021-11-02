@@ -1,23 +1,30 @@
-import ListGroup from "react-bootstrap/ListGroup"
+import ListGroup from "react-bootstrap/ListGroup";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const SkinList = (props) => {
   return (
-    <div className="skinList">
+    <Container>
       <h4>Weapon Skins</h4>
       <ListGroup>
-        {props.weaponInfo &&
-          props.weaponInfo.skins.map((item) => {
-            return (
-              <ListGroup.Item
-                key={item.uuid}
-                onClick={() => props.onClick(item.chromas[0].fullRender)}
-              >
-                {item.displayName}
-              </ListGroup.Item>
-            );
-          })}
+        <Row xs={1} md={2} lg={4}>
+          {props.weaponInfo &&
+            props.weaponInfo.skins.map((item) => {
+              return (
+                <Col>
+                  <ListGroup.Item
+                    key={item.uuid}
+                    onClick={() => props.onClick(item.chromas[0].fullRender)}
+                  >
+                    {item.displayName}
+                  </ListGroup.Item>
+                </Col>
+              );
+            })}
+        </Row>
       </ListGroup>
-    </div>
+    </Container>
   );
 };
 
