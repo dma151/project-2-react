@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+    margin-top: 100px;
+}
+#bootstrapListOverride {
+    background-color: rgba(34, 34, 34, 0.8);
+    color: white;
+}
+.list-group-item {
+    margin: 5px;
+}
+.list-group-item a {
+    color: white;
+    text-decoration: none;
+}
+.list-group-item a:hover {
+    color: red;
+}

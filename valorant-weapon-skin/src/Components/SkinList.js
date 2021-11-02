@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 const SkinList = (props) => {
   return (
     <Container>
-      <h4>Weapon Skins</h4>
+      <h4 className="sectionTitle">Weapon Skins</h4>
       <ListGroup>
         <Row xs={1} md={2} lg={4}>
           {props.weaponInfo &&
@@ -14,6 +14,7 @@ const SkinList = (props) => {
               return (
                 <Col>
                   <ListGroup.Item
+                    id="bootstrapListOverride"
                     key={item.uuid}
                     onClick={() => props.onClick(item.chromas[0].fullRender)}
                   >

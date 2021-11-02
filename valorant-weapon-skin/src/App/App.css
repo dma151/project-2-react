@@ -1,4 +1,10 @@
-.App {
-    background-image: url('../Images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg');
+body {
+    background: url('../Images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+#main {
+    height: 100%;
+}
+.sectionTitle {
+    margin-top: 20px;
 }

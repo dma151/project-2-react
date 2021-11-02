@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Arsenal from "../Components/Arsenal";
 import NavBar from "../Components/Navigation";
 import Weapon from "../Components/Weapon";
+import Container from "react-bootstrap/Container";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -25,7 +26,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main>
+      <Container id="main">
         <Route
           path="/arsenal"
           exact
@@ -46,7 +47,7 @@ function App() {
           )}
         />
         <Redirect to="/arsenal" />
-      </main>
+      </Container>
     </div>
   );
 }

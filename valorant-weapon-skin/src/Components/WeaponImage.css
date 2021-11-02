@@ -1,0 +1,7 @@
+#bootstrapImgOverride {
+    background-color: rgb(34, 34, 34, 0.8);
+    margin-top: 25px;
+}
+.card-title {
+    color: white;
+}
