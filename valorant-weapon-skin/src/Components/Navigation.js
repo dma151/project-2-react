@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
+// import Form from "react-bootstrap/Form";
+// import FormControl from "react-bootstrap/FormControl";
+// import Button from "react-bootstrap/Button";
 import './Navigation.css'
 
 const Navigation = () => {
@@ -27,15 +27,6 @@ const Navigation = () => {
             <Nav.Item><Link to='/arsenal'>Home</Link></Nav.Item>
             <Nav.Item><Link to='/About'>About</Link></Nav.Item>
           </Nav>
-          <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Weapon Name"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form>
         </Navbar.Collapse>
       </Container>
     </Navbar>
@@ -43,3 +34,16 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+// Search function that I ended up not using because of the current
+// simplicity of the current state of the project
+
+// <Form className="d-flex">
+// <FormControl
+//   type="search"
+//   placeholder="Weapon Name"
+//   className="me-2"
+//   aria-label="Search"
+// />
+// <Button variant="outline-success">Search</Button>
+// </Form>
