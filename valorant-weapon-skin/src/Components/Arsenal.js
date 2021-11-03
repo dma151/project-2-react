@@ -6,17 +6,19 @@ import Col from "react-bootstrap/Col";
 import './Arsenal.css'
 
 const Arsenal = (props) => {
+    console.log(props.weaponList)
   return (
     <Container>
       <h1 className='sectionTitle'>Choose Your Weapon</h1>
         <ListGroup>
           <Row xs={1} md={2} lg={4}>
             {props.weaponList &&
-              props.weaponList.map((item) => {
+              props.weaponList.map((item, i) => {
                 return (
                   <Col>
                     <ListGroup.Item action
                       id="bootstrapListOverride"
+                      key={i}
                       onClick={() => props.onClick(item.displayIcon)}
                     >
                       <Link to={"/arsenal/" + item.displayName}>

@@ -6,8 +6,8 @@ const WeaponStats = (props) => {
       <h4 className="sectionTitle">Weapon Data</h4>
       {props.weaponStats && (
         <ListGroup>
-          <ListGroup.Item id="bootstrapListOverride">Category: {props.weaponStats.shopData.category}</ListGroup.Item>
-          <ListGroup.Item id="bootstrapListOverride">Shop Cost: {props.weaponStats.shopData.cost}</ListGroup.Item>
+          <ListGroup.Item id="bootstrapListOverride" key="category">Category: {props.weaponStats.shopData.category}</ListGroup.Item>
+          <ListGroup.Item id="bootstrapListOverride" key="shop-cost">Shop Cost: {props.weaponStats.shopData.cost}</ListGroup.Item>
         </ListGroup>
       )}
     </div>

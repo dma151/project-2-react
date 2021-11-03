@@ -2,7 +2,7 @@ import WeaponStats from "./WeaponStats";
 import WeaponImage from "./WeaponImage";
 import SkinList from "./SkinList";
 import Container from "react-bootstrap/Container";
-import './Weapon.css'
+import "./Weapon.css";
 
 const Weapon = (props) => {
   const weapon = props.weaponList.filter(
@@ -10,7 +10,7 @@ const Weapon = (props) => {
   )[0];
   return (
     <Container>
-          <WeaponImage bigImage={props.bigImage} />
+      <WeaponImage bigImage={props.bigImage} />
       <WeaponStats weaponStats={weapon} />
       <SkinList weaponInfo={weapon} onClick={props.onClick} />
     </Container>

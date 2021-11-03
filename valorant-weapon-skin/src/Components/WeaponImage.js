@@ -1,4 +1,3 @@
-import Image from "react-bootstrap/Image"
 import Container from "react-bootstrap/Container"
 import Card from "react-bootstrap/Card"
 import "./WeaponImage.css"
@@ -15,7 +14,3 @@ const WeaponImage = (props) => {
 };
 
 export default WeaponImage;
-
-{/* <div className="bigImage" >
-<Image src={props.bigImage} fluid/>
-</div> */}

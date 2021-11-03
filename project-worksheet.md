@@ -50,7 +50,7 @@ Valorant api
 
 ## Components
 
-| Components | Description |
+| Components(MVP) | Description |
 | --- | :---: |
 | App | Set up app with React Router, also the homepage with Navbar |
 | NavBar | Renders the Navbar with its functionality |
@@ -61,6 +61,16 @@ Valorant api
 | SkinList | Renders a list of weapon skin aesthetics by name |
 | WeaponImage | Renders image of weapon, with or without skin modification on Weapon Component |
 | CSS | Styling all of the above |
+| --- | :---: |
+| Components(PostMVP) | Description |
+| --- | :---: |
+| Mod Navbar| Modified Navbar that renders more pages, including search bar |
+| WeaponCategory | A component that adds a layer for the list of weapons per category |
+| WeaponSkin Color | Renders a dropdown to the existing SkinList for color variants that the skin MIGHT have |
+| WeaponSkin Levels | Renders a dropdown to the existing SkinList for level variants that the skin MIGHT have, (plays videos) |
+| Search | A input that is added to the NavBar to search for a weapon |
+| RandomWeapon | Renders a random weapon with a skin on homepage load |
+
 
 #### Time Table
 
@@ -78,7 +88,7 @@ Valorant api
 | WeaponCategory(PostMVP) | L | 2hr | | |
 | WeaponSkin Color Variants(PostMVP) | L | 3hr | | |
 | WeaponSkin Levels videos(PostMVP) | L | 3hr | 1hr | |
-| Search(PostMVP) | L | 2hr | 2hr | 2hr |
+| Search(PostMVP) | L | 2hr | 1hr | 1hr |
 | Random Weapon div(PostMVP) | L | 1hr | | |
 | PostMVP CSS | L | 5hr | 1hr | |
 | Total(MVP) | H | 19.5hr | 16hr | 16hr |
