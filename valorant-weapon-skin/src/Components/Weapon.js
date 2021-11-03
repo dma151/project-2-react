@@ -10,7 +10,7 @@ const Weapon = (props) => {
   )[0];
   return (
     <Container>
-      <WeaponImage bigImage={props.bigImage} />
+      <WeaponImage bigImage={props.bigImage} name={props.match.params.weapon} />
       <WeaponStats weaponStats={weapon} />
       <SkinList weaponInfo={weapon} onClick={props.onClick} />
     </Container>

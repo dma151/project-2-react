@@ -7,7 +7,7 @@ const WeaponImage = (props) => {
     <Container>
         <Card id="bootstrapImgOverride">
             <Card.Img variant="top" src={props.bigImage} />
-            <Card.Title>Odin</Card.Title>
+            <Card.Title>{props.name}</Card.Title>
         </Card>
     </Container>
   );

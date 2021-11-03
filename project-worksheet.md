@@ -61,7 +61,8 @@ Valorant api
 | SkinList | Renders a list of weapon skin aesthetics by name |
 | WeaponImage | Renders image of weapon, with or without skin modification on Weapon Component |
 | CSS | Styling all of the above |
-| --- | :---: |
+
+
 | Components(PostMVP) | Description |
 | --- | :---: |
 | Mod Navbar| Modified Navbar that renders more pages, including search bar |

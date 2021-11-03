@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import './Arsenal.css'
 
 const Arsenal = (props) => {
-    console.log(props.weaponList)
+    //console.log(props.weaponList)
   return (
     <Container>
       <h1 className='sectionTitle'>Choose Your Weapon</h1>
