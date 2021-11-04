@@ -86,15 +86,15 @@ Valorant api
 | SkinList | H | 1.5hr | 1hr | 1hr |
 | WeaponImage | H | 1hr | 1hr | 1hr |
 | CSS | H | 5hr | 5hr | 5hr |
-| Mod NavBar(PostMVP) | L | 3hr | | |
+| Mod NavBar(PostMVP) | L | 3hr | 1hr | |
 | WeaponCategory(PostMVP) | L | 2hr | | |
 | WeaponSkin Color Variants(PostMVP) | L | 3hr | | |
 | WeaponSkin Levels videos(PostMVP) | L | 3hr | 1hr | |
 | Search(PostMVP) | L | 2hr | 1hr | 1hr |
-| Example Weapon div(PostMVP) | L | 1hr | | |
-| PostMVP CSS | L | 5hr | 1hr | |
+| Example Weapon div(PostMVP) | L | 1hr | 2hr | 2hr |
+| PostMVP CSS | L | 5hr | 2hr | 2hr |
 | Total(MVP) | H | 19.5hr | 16hr | 16hr |
-| Total(PostMVP) | L | 15hr | | |
+| Total(PostMVP) | L | 15hr | 7hr | 5hr |
 
 
 ## Additional Libraries
