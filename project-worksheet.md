@@ -31,6 +31,7 @@ Valorant api
 ## Wireframes
 
 - [Wireframe](https://images.unsplash.com/photo-1635465473812-1efcfb5ad17d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1348&q=80)
+- [React Structure](https://wireframepro.mockflow.com/view/react-structure)
 
 ## MVP/Post MVP
 #### MVP
@@ -99,3 +100,29 @@ Valorant api
 ## Additional Libraries
 
 ## Code Snippet
+
+```
+    <Container>
+      <h1 className='sectionTitle'>Choose Your Weapon</h1>
+        <ListGroup>
+          <Row xs={1} md={2} lg={4}>
+            {props.weaponList &&
+              props.weaponList.map((item, i) => {
+                return (
+                  <Col>
+                    <ListGroup.Item action
+                      id="bootstrapListOverride"
+                      key={i}
+                      onClick={() => props.onClick(item.displayIcon)}
+                    >
+                      <Link to={"/arsenal/" + item.displayName}>
+                        {item.displayName}
+                      </Link>
+                    </ListGroup.Item>
+                  </Col>
+                );
+              })}
+          </Row>
+        </ListGroup>
+    </Container>
+```

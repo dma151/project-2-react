@@ -1,6 +1,7 @@
 import { Route, Redirect } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Arsenal from "../Components/Arsenal";
+import About from "../Components/About"
 import NavBar from "../Components/Navigation";
 import Weapon from "../Components/Weapon";
 import Container from "react-bootstrap/Container";
@@ -27,6 +28,7 @@ function App() {
         <NavBar />
       </header>
       <Container id="main">
+        <Route path="/About" render={() => <About />} />
         <Route
           path="/arsenal"
           exact
