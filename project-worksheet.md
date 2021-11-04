@@ -71,7 +71,7 @@ Valorant api
 | WeaponSkin Color | Renders a dropdown to the existing SkinList for color variants that the skin MIGHT have |
 | WeaponSkin Levels | Renders a dropdown to the existing SkinList for level variants that the skin MIGHT have, (plays videos) |
 | Search | A input that is added to the NavBar to search for a weapon |
-| RandomWeapon | Renders a random weapon with a skin on homepage load |
+| ExampleWeapon | Renders 3 popular weapons with a skin on homepage load |
 
 
 #### Time Table
@@ -91,7 +91,7 @@ Valorant api
 | WeaponSkin Color Variants(PostMVP) | L | 3hr | | |
 | WeaponSkin Levels videos(PostMVP) | L | 3hr | 1hr | |
 | Search(PostMVP) | L | 2hr | 1hr | 1hr |
-| Random Weapon div(PostMVP) | L | 1hr | | |
+| Example Weapon div(PostMVP) | L | 1hr | | |
 | PostMVP CSS | L | 5hr | 1hr | |
 | Total(MVP) | H | 19.5hr | 16hr | 16hr |
 | Total(PostMVP) | L | 15hr | | |

@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function App() {
   const [weaponList, setWeaponList] = useState([]);
   const [bigImage, setBigImage] = useState();
